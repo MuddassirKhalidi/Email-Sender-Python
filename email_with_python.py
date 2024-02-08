@@ -8,7 +8,7 @@ The 'EmailSender' establishes an SMTP connection, logging in, and sending emails
 Usage:
 - Import the 'EmailSender' class into your scripts for email-related functionality.
 - Ensure the 'smtplib' library is available in your Python environment.
-
+- When logging in, use the App password to your Gmail
 Example:
     from email_with_python import EmailSender
 
