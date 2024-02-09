@@ -34,8 +34,9 @@ pip install smtplib
 2. Create an instance of `EmailSender`.
 3. Log in using your Gmail email address and App password.
 4. Choose whether to send an email to one user or multiple users.
-5. Follow the prompts to enter the subject and message content.
-6. Email(s) will be sent accordingly.
+5. If the email is being sent to multiple users, an excel file must be specified. The algorithm will automatically detect the email column in the file and send a standard email to all the receiptiants
+6. Follow the prompts to enter the subject and message content.
+7. Email(s) will be sent accordingly.
 
 ## Example
 
